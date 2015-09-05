@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <title>React/Redux template</title>
+  </head>
+  <body>
+    <div id="content"></div>
+
+    <% if (env === 'production') { %>
+      <script type="text/javascript" src="/build/bundle.js"></script>
+    <% } else if (env === 'development') { %>
+      <script type="text/javascript" src="http://localhost:8080/bundle.js"></script>
+    <% } %>
+  </body>
+</html>

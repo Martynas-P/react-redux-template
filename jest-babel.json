@@ -1,0 +1,4 @@
+{
+  "unmockedModulePathPatterns": ["./node_modules/react/"],
+  "scriptPreprocessor": "./node_modules/babel-jest"
+}
